@@ -1,0 +1,19 @@
+.news-wrap {
+  position: fixed;
+  top: 40vh;
+  right: 3.5em;
+  margin: auto;
+}
+
+#news a {
+  text-orientation: sideways-right;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  color: black;
+}
+
+@media screen and (max-width: 992px) {
+  .news-wrap {
+    display: none;
+  }
+}

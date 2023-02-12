@@ -1,0 +1,65 @@
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.visit {
+  font-size: small;
+  text-align: center;
+  margin-top: 30px;
+}
+.sns-button {
+  display: flex;
+  line-height: 1rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sns-button i {
+  font-size: 36px;
+  color: #343a40;
+}
+
+.button-52 {
+  font-size: 0.7rem;
+  color: white;
+  padding: 13px 10px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-52 a {
+  color: white;
+  border: none;
+}
+
+.button-52 a:hover {
+  color: white;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #343a40;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 20px 13px;
+  }
+}
